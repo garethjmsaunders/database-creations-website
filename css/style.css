@@ -1,0 +1,118 @@
+/*
+Name        Database Creations v2.0.0
+URL         www.databasecreations.com
+Updated     Thursday 17 February 2022
+
+#000000 black
+#ffffff white
+#777777 dark grey
+#5a0000 dark red in heading gradient (0%)
+#a30100 mid-red  in heading gradient (75%)
+#8a0000 dark red in heading gradient (100%)
+#e1aaaf rose for link:active state
+*/
+
+/* 1. Base rules =========================== */
+
+h1, h2, h3, h4, h5, h6 { font-family: Georgia, "Times New Roman", Times, serif; }
+
+h1 {
+    font-size: 5em;
+    margin-top: 0.5em;
+    }
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    }
+
+h3 { 
+    margin: 0.5em 0;
+    }
+
+a:link {
+    color: #a30100; /* mid-red */
+    }
+a:visited {
+    color: #000000;
+    }
+a:hover {
+    color: #000000;
+    }
+a:active {
+    background: #e1aaaf; /* rose */
+    }
+
+p { 
+    font-size: 1.2em;
+    }
+
+
+/* 2. Layout rules ========================= */
+
+
+/* 3. Module rules ========================= */
+
+/* vCard icon
+   icon source: http://microformats.org/wiki/icons */
+a[href$=".vcf"] {
+    background-image: url('../img/vcard.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin: -2px 0;
+    padding: 2px 37px 2px 0;
+    }
+
+
+/* 4. State rules ========================== */
+
+.final-paragraph {
+    padding-bottom: 2em;
+    }
+
+.hide {
+    display: none;
+    }
+
+
+/* 5. Theme rules ========================== */
+
+body {
+    background-color: #777777;
+    }
+
+#container {
+    background-color: #ffffff;
+    }
+
+#topbar, #footer {
+    background: rgb(90,0,0);
+    background: linear-gradient(120deg, rgba(90,0,0,1) 0%, rgba(163,1,0,1) 75%, rgba(90,0,0,1) 100%);
+    }
+
+    #topbar {
+        height: 6em;
+        }
+
+    #footer {
+        height:  3em;
+        line-height:  3em;
+        }
+
+#logo {
+    position:  relative;
+    }
+
+    #logo img {
+        position:  absolute;
+        top: -50px;
+        }
+
+#sidebar h2 {
+    color: #a30100;
+    }
+
+#footer {
+    color: #ffffff;
+    }

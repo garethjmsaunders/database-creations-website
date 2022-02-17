@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Mike Jeremiah
+N:Jeremiah;Mike;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:mike@databasecreations.co.uk
+item1.ORG:Database Creations
+item1.X-ABLabel:
+URL;TYPE=WORK:http\://www.databasecreations.co.uk/
+CATEGORIES:myContacts
+END:VCARD
