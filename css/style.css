@@ -9,7 +9,7 @@ Updated     Thursday 17 February 2022
 #5a0000 dark red in heading gradient (0%)
 #a30100 mid-red  in heading gradient (75%)
 #8a0000 dark red in heading gradient (100%)
-#e1aaaf rose for link:active state
+#ffc0b5 rose for link:active state
 */
 
 /* 1. Base rules =========================== */
@@ -17,12 +17,14 @@ Updated     Thursday 17 February 2022
 h1, h2, h3, h4, h5, h6 { font-family: Georgia, "Times New Roman", Times, serif; }
 
 h1 {
-    font-size: 5em;
+    xfont-size: 5em;
+    font-size: 4em;
     margin-top: 0.5em;
     }
 
 h2 {
-    font-size: 2.5em;
+    xfont-size: 2.5em;
+    font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
     }
@@ -41,11 +43,11 @@ a:hover {
     color: #000000;
     }
 a:active {
-    background: #e1aaaf; /* rose */
+    background: #ffc0b5; /* rose */
     }
 
 p { 
-    font-size: 1.2em;
+    font-size: 1.1em;
     }
 
 
